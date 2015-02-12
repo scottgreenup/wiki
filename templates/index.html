@@ -7,6 +7,7 @@
     <form class="search">
       <input type="text" class="form-control input-lg" id="searchInput" placeholder="Search">
     </form>
+
     <div class="container-cards">
       <div class="card">
         <h4>Title</h4>
@@ -19,6 +20,8 @@
       </div>
     </div>
   </div>
+{% endblock %}
 
-
+{% block scripts %}
+  <script src="{{ url_for('static', filename='keyboard_control.js') }}"></script>
 {% endblock %}

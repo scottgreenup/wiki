@@ -1,6 +1,6 @@
 .card {
-  background-color: #eee;
-  border: 1px solid #bbb;
+  background-color: #EEE;
+  border: 1px solid #BBB;
   border-radius: 3px;
   margin: 20px 0;
   padding: 20px;
@@ -13,4 +13,8 @@
 
 .card p {
   margin-bottom: 0;
+}
+
+.card-focus {
+  background-color: #76CAEE;
 }
